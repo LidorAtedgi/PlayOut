@@ -1,0 +1,20 @@
+.title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Whack-a-Mole{
+    display: grid;
+    grid-template-columns: repeat(10, 0fr);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.Whack-a-Mole .cell{
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.Whack-a-Mole .mole{
+    max-width: 35px;
+    padding-top: 3px;
+}

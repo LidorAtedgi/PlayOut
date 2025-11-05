@@ -1,0 +1,1 @@
+export const port = import.meta.env.VITE_REACT_APP_SERVER_PORT

@@ -1,0 +1,30 @@
+.tic-tac-toe .board{
+    display: grid;
+    grid-template-columns: repeat(3,6.7rem);
+    grid-template-rows: repeat(3,8.3rem);
+    max-width: 260px;
+    
+  }
+  .tic-tac-toe .box{
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    background: #2B2B2B;
+    font-size: 5rem;
+    font-weight: bold;
+    width: 100px;
+    height: 125px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .tic-tac-toe .box:hover{
+    background-color: #1b1a1a;
+  }
+  .tic-tac-toe .x-hover:hover::after{
+    content: "x";
+    opacity: 0.5;
+  }
+  .tic-tac-toe .o-hover:hover::after{
+    content: "o";
+    opacity: 0.5;
+  }
